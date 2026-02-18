@@ -152,25 +152,6 @@ wheels = [
 ]
 
 [[package]]
-name = "anthropic"
-version = "0.76.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "anyio" },
-    { name = "distro" },
-    { name = "docstring-parser" },
-    { name = "httpx" },
-    { name = "jiter" },
-    { name = "pydantic" },
-    { name = "sniffio" },
-    { name = "typing-extensions" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/6e/be/d11abafaa15d6304826438170f7574d750218f49a106c54424a40cef4494/anthropic-0.76.0.tar.gz", hash = "sha256:e0cae6a368986d5cf6df743dfbb1b9519e6a9eee9c6c942ad8121c0b34416ffe", size = 495483, upload-time = "2026-01-13T18:41:14.908Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/e5/70/7b0fd9c1a738f59d3babe2b4212031c34ab7d0fda4ffef15b58a55c5bcea/anthropic-0.76.0-py3-none-any.whl", hash = "sha256:81efa3113901192af2f0fe977d3ec73fdadb1e691586306c4256cd6d5ccc331c", size = 390309, upload-time = "2026-01-13T18:41:13.483Z" },
-]
-
-[[package]]
 name = "anyio"
 version = "4.12.1"
 source = { registry = "https://pypi.org/simple" }
@@ -514,23 +495,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/e4/63/d4aea4835fd97da1401d798d9b8ba77227974de565faea402f520b37b10f/brotlicffi-1.2.0.0-pp311-pypy311_pp73-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:7d3c4332fc808a94e8c1035950a10d04b681b03ab585ce897ae2a360d479037c", size = 406447, upload-time = "2025-11-21T18:17:53.614Z" },
     { url = "https://files.pythonhosted.org/packages/62/4e/5554ecb2615ff035ef8678d4e419549a0f7a28b3f096b272174d656749fb/brotlicffi-1.2.0.0-pp311-pypy311_pp73-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:fb4eb5830026b79a93bf503ad32b2c5257315e9ffc49e76b2715cffd07c8e3db", size = 402521, upload-time = "2025-11-21T18:17:54.875Z" },
     { url = "https://files.pythonhosted.org/packages/b5/d3/b07f8f125ac52bbee5dc00ef0d526f820f67321bf4184f915f17f50a4657/brotlicffi-1.2.0.0-pp311-pypy311_pp73-win_amd64.whl", hash = "sha256:3832c66e00d6d82087f20a972b2fc03e21cd99ef22705225a6f8f418a9158ecc", size = 374730, upload-time = "2025-11-21T18:17:56.334Z" },
-]
-
-[[package]]
-name = "browserbase"
-version = "1.4.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "anyio" },
-    { name = "distro" },
-    { name = "httpx" },
-    { name = "pydantic" },
-    { name = "sniffio" },
-    { name = "typing-extensions" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/71/df/17ac5e1116ab8f1264c6a9718f935358d20bdcd8ae0e3d1f18fd580cd871/browserbase-1.4.0.tar.gz", hash = "sha256:e2ed36f513c8630b94b826042c4bb9f497c333f3bd28e5b76cb708c65b4318a0", size = 122103, upload-time = "2025-05-16T20:50:40.802Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/58/13/4191423982a2ec69dc8c10a1c4b94a50a0861f49be81ffc19621b75841bc/browserbase-1.4.0-py3-none-any.whl", hash = "sha256:ea9f1fb4a88921975b8b9606835c441a59d8ce82ce00313a6d48bbe8e30f79fb", size = 98044, upload-time = "2025-05-16T20:50:39.331Z" },
 ]
 
 [[package]]
@@ -1000,7 +964,7 @@ requires-dist = [
     { name = "ragas", specifier = ">=0.3.0" },
     { name = "requests", specifier = ">=2.25.0" },
     { name = "sentence-transformers", specifier = ">=5.1.2" },
-    { name = "stagehand", specifier = "~=0.5.7" },
+    { name = "stagehand", specifier = "~=3.5.0" },
     { name = "standard-distutils", specifier = ">=3.11.9" },
     { name = "strands-agents", extras = ["ollama", "otel", "litellm"], specifier = ">=1.19.0" },
     { name = "strands-agents-tools", specifier = ">=0.2.17" },
@@ -3273,25 +3237,6 @@ wheels = [
 ]
 
 [[package]]
-name = "playwright"
-version = "1.57.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "greenlet" },
-    { name = "pyee" },
-]
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/ed/b6/e17543cea8290ae4dced10be21d5a43c360096aa2cce0aa7039e60c50df3/playwright-1.57.0-py3-none-macosx_10_13_x86_64.whl", hash = "sha256:9351c1ac3dfd9b3820fe7fc4340d96c0d3736bb68097b9b7a69bd45d25e9370c", size = 41985039, upload-time = "2025-12-09T08:06:18.408Z" },
-    { url = "https://files.pythonhosted.org/packages/8b/04/ef95b67e1ff59c080b2effd1a9a96984d6953f667c91dfe9d77c838fc956/playwright-1.57.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:a4a9d65027bce48eeba842408bcc1421502dfd7e41e28d207e94260fa93ca67e", size = 40775575, upload-time = "2025-12-09T08:06:22.105Z" },
-    { url = "https://files.pythonhosted.org/packages/60/bd/5563850322a663956c927eefcf1457d12917e8f118c214410e815f2147d1/playwright-1.57.0-py3-none-macosx_11_0_universal2.whl", hash = "sha256:99104771abc4eafee48f47dac2369e0015516dc1ce8c409807d2dd440828b9a4", size = 41985042, upload-time = "2025-12-09T08:06:25.357Z" },
-    { url = "https://files.pythonhosted.org/packages/56/61/3a803cb5ae0321715bfd5247ea871d25b32c8f372aeb70550a90c5f586df/playwright-1.57.0-py3-none-manylinux1_x86_64.whl", hash = "sha256:284ed5a706b7c389a06caa431b2f0ba9ac4130113c3a779767dda758c2497bb1", size = 45975252, upload-time = "2025-12-09T08:06:29.186Z" },
-    { url = "https://files.pythonhosted.org/packages/83/d7/b72eb59dfbea0013a7f9731878df8c670f5f35318cedb010c8a30292c118/playwright-1.57.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:38a1bae6c0a07839cdeaddbc0756b3b2b85e476c07945f64ece08f1f956a86f1", size = 45706917, upload-time = "2025-12-09T08:06:32.549Z" },
-    { url = "https://files.pythonhosted.org/packages/e4/09/3fc9ebd7c95ee54ba6a68d5c0bc23e449f7235f4603fc60534a364934c16/playwright-1.57.0-py3-none-win32.whl", hash = "sha256:1dd93b265688da46e91ecb0606d36f777f8eadcf7fbef12f6426b20bf0c9137c", size = 36553860, upload-time = "2025-12-09T08:06:35.864Z" },
-    { url = "https://files.pythonhosted.org/packages/58/d4/dcdfd2a33096aeda6ca0d15584800443dd2be64becca8f315634044b135b/playwright-1.57.0-py3-none-win_amd64.whl", hash = "sha256:6caefb08ed2c6f29d33b8088d05d09376946e49a73be19271c8cd5384b82b14c", size = 36553864, upload-time = "2025-12-09T08:06:38.915Z" },
-    { url = "https://files.pythonhosted.org/packages/6a/60/fe31d7e6b8907789dcb0584f88be741ba388413e4fbce35f1eba4e3073de/playwright-1.57.0-py3-none-win_arm64.whl", hash = "sha256:5f065f5a133dbc15e6e7c71e7bc04f258195755b1c32a432b792e28338c8335e", size = 32837940, upload-time = "2025-12-09T08:06:42.268Z" },
-]
-
-[[package]]
 name = "pluggy"
 version = "1.6.0"
 source = { registry = "https://pypi.org/simple" }
@@ -3762,18 +3707,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/50/35/b17cb89ff865484c6a20ef46bf9d95a5f07328292578de0b295f4a6beec2/pydot-4.0.1.tar.gz", hash = "sha256:c2148f681c4a33e08bf0e26a9e5f8e4099a82e0e2a068098f32ce86577364ad5", size = 162594, upload-time = "2025-06-17T20:09:56.454Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7e/32/a7125fb28c4261a627f999d5fb4afff25b523800faed2c30979949d6facd/pydot-4.0.1-py3-none-any.whl", hash = "sha256:869c0efadd2708c0be1f916eb669f3d664ca684bc57ffb7ecc08e70d5e93fee6", size = 37087, upload-time = "2025-06-17T20:09:55.25Z" },
-]
-
-[[package]]
-name = "pyee"
-version = "13.0.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "typing-extensions" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/95/03/1fd98d5841cd7964a27d729ccf2199602fe05eb7a405c1462eb7277945ed/pyee-13.0.0.tar.gz", hash = "sha256:b391e3c5a434d1f5118a25615001dbc8f669cf410ab67d04c4d4e07c55481c37", size = 31250, upload-time = "2025-03-17T18:53:15.955Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/9b/4d/b9add7c84060d4c1906abe9a7e5359f2a60f7a9a4f67268b2766673427d8/pyee-13.0.0-py3-none-any.whl", hash = "sha256:48195a3cddb3b1515ce0695ed76036b5ccc2ef3a9f963ff9f77aec0139845498", size = 15730, upload-time = "2025-03-17T18:53:14.532Z" },
 ]
 
 [[package]]
@@ -4767,25 +4700,22 @@ wheels = [
 
 [[package]]
 name = "stagehand"
-version = "0.5.9"
+version = "3.5.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "anthropic" },
-    { name = "browserbase" },
-    { name = "google-genai" },
+    { name = "anyio" },
+    { name = "distro" },
     { name = "httpx" },
-    { name = "litellm" },
-    { name = "nest-asyncio" },
-    { name = "openai" },
-    { name = "playwright" },
     { name = "pydantic" },
-    { name = "python-dotenv" },
-    { name = "requests" },
-    { name = "rich" },
+    { name = "sniffio" },
+    { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/95/de/dd5e3a51cc67580c797cce5e62e12ed19cc92937a5c4cd35dccfa88b812d/stagehand-0.5.9.tar.gz", hash = "sha256:068a2825b02fbc949ab9d1cf59b80d2c17caba0259e759d807f38d0e9ab236b0", size = 101378, upload-time = "2025-12-23T02:12:56.451Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/14/e3/264f867657b62cdab967e65301e8aaa4f01cff644cb294e1ce9759c9febb/stagehand-3.5.0.tar.gz", hash = "sha256:42202ca13fde9aa75ee0af4892ad99bd4df140148a98ed2e1cc0d54a6ceec147", size = 257277, upload-time = "2026-01-29T19:44:35.792Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c0/c9/c3360d551bf6d460bf7278640479000e3bf1f3f39b837c4b67f0eb08dc06/stagehand-0.5.9-py3-none-any.whl", hash = "sha256:cc8d2a114799ea1c3d6f199e86abd6479a8b338a101fffa6824d85b542ed9071", size = 113956, upload-time = "2025-12-23T02:12:57.416Z" },
+    { url = "https://files.pythonhosted.org/packages/a0/46/29b54897af95b9b703f9b6bb3b469d35cdb930a8fdc2ce71d30b12e08adb/stagehand-3.5.0-py3-none-macosx_10_9_x86_64.whl", hash = "sha256:315c3fc2e50f35f0a910780a6376509d41a106654d2d7147973e6b3d0f692381", size = 39772748, upload-time = "2026-01-29T19:44:22.834Z" },
+    { url = "https://files.pythonhosted.org/packages/cf/7f/ed029f9458ca6c1c07c3fff58a38fd9d85540bc8d8fe3413cb2c3e4ea077/stagehand-3.5.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:b8e0aa4cda452f1c1596dd60a59d196a5482f0bdf8cfaf52cb8092bfc1242fbe", size = 38560618, upload-time = "2026-01-29T19:44:17.748Z" },
+    { url = "https://files.pythonhosted.org/packages/b3/dd/c566406edc80bb42722f04d99cae3bf18647c9aa951dd56e9aaba0e9b7e8/stagehand-3.5.0-py3-none-manylinux2014_x86_64.whl", hash = "sha256:0cfd758ca68ee89ce88c9d7945780dec41342f37ffd9f6074bce1f37bf37a353", size = 43183092, upload-time = "2026-01-29T19:44:28.551Z" },
+    { url = "https://files.pythonhosted.org/packages/d3/a3/6bbe486106cad64b9de9fdf1abc5ba3fcf2567cd84375a0347ee653b223e/stagehand-3.5.0-py3-none-win_amd64.whl", hash = "sha256:d50b1b4dfc523dec3e6c2bedc6bfd8461ff4d2e563b736c8e415d3da4d42b33e", size = 34669832, upload-time = "2026-01-29T19:44:33.241Z" },
 ]
 
 [[package]]
